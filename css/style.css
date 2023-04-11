@@ -1,0 +1,570 @@
+/* 
+  Name: Samantha Fong Yit Wan
+  Student Id: 46185755
+  
+  You may change anything you like in this file 
+*/
+@font-face {
+  font-family: National Medium; 
+  src: url(../fonts/National-Medium/National-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: Uniform Pro; 
+  src: url(../fonts/Uniform-Pro/uniformpro-med.otf) format("truetype");
+}
+ 
+html, * {
+  color: #373a36;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: 'National Medium';
+}
+
+
+
+
+footer#footer {
+  background: #a6192e;
+  padding: 9px 0;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+body {
+  margin: 0;
+}
+body {
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+a.logo {
+  display: block;
+  background: black;
+  text-decoration: none;
+  padding: 5px 50px;
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-align: right;
+}
+.header-search {
+  padding-bottom: 25px;
+  width: calc(50% - 200px);
+}
+header h1 {
+  background: white;
+  margin: 0;
+  padding: 20px;
+  display: none;
+}
+
+ul.main-menu li {
+  list-style-type: none;
+  padding: 8px 15px;
+}
+
+ul.main-menu li a,ul.main-menu li span {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+ul.main-menu {
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  padding-left: 0;
+}
+
+nav.main-nav {
+    padding: 0 30px 25px;
+    min-width: calc(60% - 200px);
+}
+
+div#login ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 15px;
+}
+input[type="submit"]:hover {
+    background: white;
+    color: #a6192e;
+}
+
+input.search-button:hover {
+    background: black;
+    border-color: black;
+    color: white;
+}
+
+
+.header-auth {
+  width: 100%;
+  /* overflow: overlay; */
+  max-width: 100%;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 13px;
+  height: 40px;
+  line-height: 36px;
+  padding: 0 10px;
+  vertical-align: baseline;
+  width: 100%;
+  color: #878787;
+  box-shadow: none !important;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  color: #ffffff;
+  background-color: #a6192e;
+  border-color: #a6192e;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 35px;
+  border-radius: 40px;
+  transition: all .3s;
+}
+
+#login ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+div#login ul li label {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2em;
+  text-align: left;
+  color: #333;
+  letter-spacing: 0.05em;
+}
+
+div#login_register {width: 40%;background: rgba(255,255,255,0.8);border-radius: 15px;padding: 30px 50px 40px;margin: 0 auto 0 0;}
+
+
+
+div#register a {
+  line-height: 20px;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 15px;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  transition: all .3s;
+  background: black;
+}
+
+div#login ul li:last-child {
+  margin-bottom: 0;
+}
+
+div#login:before {
+  content: 'Login to COMP2110 Portal';
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 2em;
+  color: black;
+  margin-bottom: 20px;
+}
+footer p {
+  margin: 2px 0;
+  color: white;
+}
+
+.page-header-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  padding-top: 25px;
+  background-image: url(https://www.mq.edu.au/__data/assets/image/0011/1061948/brand-desktop.jpg);
+  padding: 25px 50px 50px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.header-search label.visually-hidden {
+  display: none;
+}
+
+input.search-input-field {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 12px;
+  border-radius: 20px 0 0 20px;
+  letter-spacing: 1px;
+  border: 0;
+  color: black;
+  background: transparent;
+}
+
+input.search-button {
+  margin-top: 0;
+  padding: 0 20px;
+  border-radius: 20px;
+  max-width: 150px;
+  transition: all .3s;
+}
+
+form#nav-main-search {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.5);
+}
+
+.page-header-main:before {content: url(../images/mqlogo-resized.svg);display: inline-block;padding-bottom: 25px;}
+
+div#register a:hover {
+    background: #a6192e;
+    color: white;
+}
+section#primary-widgets {
+    padding: 50px 20px;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#primary-widgets> div {
+    padding: 30px 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+section h2 {
+    font-size: 30px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+
+
+.widget.advertisement {
+}
+
+.widget.advertisement {
+    text-align: center;
+    box-shadow: none !important;
+}
+
+div#links-widget ul li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+div#links-widget ul li a {
+    color: #a6192e;
+    text-decoration: none !important;
+    text-decoration: underline;
+}
+
+div#links-widget ul {
+    padding: 0;
+}
+
+
+
+.blog {
+    background: #edebe5;
+    padding: 50px 20px;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.blog h2 {
+    margin: 0;
+    font-size: 25px;
+    color: #a6192e;
+    text-align: left;
+}
+
+
+
+
+.blog> .blogpost {
+    padding: 30px 15px;
+    /* box-shadow: 0 3px 4px -2px rgb(0 0 0 / 22%); */
+    /* border: 1px solid #f6f6f6; */
+    /* background: white; */
+}
+
+h3.byline {
+    font-style: italic;
+}
+
+
+.blog> .blogpost p {
+    text-align: justify;
+}
+div#weather-widget ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+
+div#weather-widget ul li {
+  list-style-type: none;
+}
+
+section#primary-widgets> div#weather-widget {
+    background: transparent;
+    background-image: url(../images/Rectangle-4086.jpg);
+    display: flex;
+    align-items: center;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    order: 2;
+}
+
+section#primary-widgets> div#weather-widget * {
+    color: white;
+}
+
+li.location {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0;
+    width: 100%;
+    order: 4;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+section#primary-widgets> div#weather-widget h2 {
+    display: none;
+}
+
+li.mintemp,li.maxtemp {
+    font-size: 55px;
+    color: white !important;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+    font-family: Uniform Pro;
+    line-height: 1;
+}
+
+
+
+li.outlook {
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    order: 3;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+section div#links-widget {
+    text-align: left;
+    order: 1;
+}
+
+section div#links-widget h2 {
+    color: #373a36;
+}
+
+
+
+li.mintemp {
+    order: 1;
+}
+
+li.maxtemp {
+    order: 2;
+}
+.widget.advertisement {
+    background-image: url(../images/Group-6423.jpg) !important;
+    background-size: cover !important;
+    background-position: center;
+}
+
+
+
+.widget.advertisement img {
+    display: none;
+}
+
+section#secondary-widgets {
+    padding: 50px 20px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+section#secondary-widgets > div {
+    background: #f2f2f2;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+div#assignments-widget {
+    background: #f2f2f2;
+}
+
+
+section#secondary-widgets ul li {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+section#secondary-widgets .widget.advertisement {
+    display: none;
+}
+
+section#secondary-widgets ul {
+    padding: 0;
+}
+
+
+
+div#task-widget dl {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+div#task-widget dl dd {
+    margin: 0 0 15px;
+    text-transform: capitalize;
+}
+
+div#task-widget dl dt {
+    font-weight: bold;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+section#primary-widgets> .widget.advertisement {
+    min-height: 350px;
+    order: 3;
+}
+
+section div#links-widget h2:before {
+    width: 50px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    content: "";
+    height: 4px;
+    background: #373a36;
+    position: absolute;
+    bottom: -17px;
+}
+
+
+
+
+div#links-widget ul li a:hover {
+    text-decoration: underline !important;
+}
+
+div#links-widget ul li a:after {
+    content: " →";
+}
+
+@media (max-width:767px){
+  .page-header-main {
+    padding: 15px;
+    justify-content: center;
+}
+
+.header-search {
+    width: 100%;
+}
+
+
+
+a.logo {
+    padding: 15px;
+}
+
+section#primary-widgets> div {
+    width: 100%;
+    margin: 10px 0;
+}
+
+section div#links-widget {
+    min-height: unset;
+}
+
+.blog> .blogpost {
+}
+
+section#secondary-widgets > div {
+}
+  div#login_register {
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+nav.main-nav {
+    min-width: unset;
+}
+  div#login:before {
+    font-size: 22px;
+}
+  main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widgets, .blog {
+    width: 100%;
+}
+
+.blog {
+    order: 1;
+}
+
+section#primary-widgets {
+    order: 3;
+    padding-top: 0;
+}
+
+section#secondary-widgets {
+    padding-bottom: 0;
+    order: 2;
+}
+}
